@@ -1,5 +1,5 @@
 function generateRandomPassword() {
-  const specialChars = "@#$%^*=<>";
+  const specialChars = "<>";
   const uppercaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   const lowercaseLetters = "abcdefghijklmnopqrstuvwxyz";
   const numbers = "0123456789";
@@ -18,13 +18,13 @@ function generateRandomPassword() {
 
 const databases = [
   {
-    dbName: "user_management_stage1",
-    userName: "user_management_role",
+    dbName: "db_name",
+    userName: "db_role",
     password: generateRandomPassword(),
   },
   {
-    dbName: "activity_logs_stage1",
-    userName: "activity_logs_role",
+    dbName: "db_name",
+    userName: "db_role",
     password: generateRandomPassword(),
   },
 ];
